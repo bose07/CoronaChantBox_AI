@@ -1,0 +1,24 @@
+KINDLY FOLOW THE STEPS
+
+looms link are in the PPT in the 3rd slide 
+
+1. KINDLY OPEN THE PYCHARM/COMPILER
+2. OPEN gui_chatbot.py
+3. train_chatbot.py
+4. intents.json
+
+drags 3 python file in your compiler 
+step 1
+then import nltk
+ then import keras 
+  the import tensorflow 
+
+ step 2     
+  after that open the train_chatbit.py and 
+    run the program to train the model 
+
+    after that open hui_chatbot.py 
+
+
+and then you can see the chatbot window , 
+you can ask anything to the chatbot

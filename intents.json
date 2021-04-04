@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Okay, stay safe!", "Whenever you need help, ask me again!", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["who affected", "which age?", "Which age is in danger", "who can be sick?", "age?"],
+         "responses": ["anyone above the age of 60 is in danger", "Elderly people need to be taken care of!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me COVID HELPER.", "I'm COVID HElPER!", "I AM COVID HELPER HERE TO HELP YOU!"],
+         "context_set": ""
+        },
+        {"tag": "tips",
+         "patterns": ["Can you give me safety tips?", "How to be safe?", "what do you recommend?", "How to stay healthy?", "How to protect against?", "safety tips?", "prevention?"],
+         "responses": ["Wash your hands for at least 20 seconds", "Please consult the doctor if feverish!", "Limit social gatherings and time spent in crowded places."],
+         "context_set": ""
+        },
+        {"tag": "symptoms",
+         "patterns": ["what are some covid symptoms", "symptoms", "What are the symptoms", "signs of covid", "Do I have the corona virus", "how to know?"],
+         "responses": ["Some common symptoms are fever, dry cough and tiredness."],
+         "context_set": ""
+        },
+        {"tag": "treatment",
+         "patterns": ["How you could help me?", "What to do if I have covid?", "I have the corona virus.", "What is the treatment for this?", "Treatment"],
+         "responses": ["If you feel sick you should rest, drink plenty of fluid, and eat nutritious food.", "Stay in a separate room from other family members.", "If you are feeling extremely sick then visit the narest hospital."],
+         "context": ""
+        },
+        {"tag": "medicine",
+         "patterns": ["What medicine to take?", "medication", "Which medicine can treat covid", "is there a medicine" ],
+         "responses": ["Remdesivir (Veklury) is currently the only medication approved by the FDA to treat coronavirus disease."],
+         "context": ""
+        },
+        {
+          "tag": "help-centres",
+          "patterns": ["Nearby hospitals", "Suggest nearby covid help centres", "hospitals", "help centres"],
+          "responses": ["Nearby hospital phone numbers: 098140 62682/0182 426 0066"]
+        },
+        {
+          "tag": "helpline-numbers",
+          "patterns": ["Suggest some helpline numbers", "Which numbers can i call", "call"],
+          "responses": ["Call this number if you need help: +91-11-23978046"]
+        }
+]
+}
