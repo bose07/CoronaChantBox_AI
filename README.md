@@ -1,1 +1,1 @@
-# CoronaChantBox_AI , python 
+# CoronaChantBox_AI , pytho , tensorflow
